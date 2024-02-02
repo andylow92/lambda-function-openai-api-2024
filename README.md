@@ -14,7 +14,7 @@ Installation & Setup
 Step 1: Add the Lambda Layer
 
     Download the Lambda Layer ZIP file: Clone this repository to access the Lambda Layer ZIP file prepared for the OpenAI integration.
-    pload the ZIP file to your AWS account: Use the AWS CLI or AWS Management Console to upload the provided openai-lambda-layer.zip file to your Lambda function as a new layer.
+    pload the ZIP file to your AWS account: Use the AWS CLI or AWS Management Console to upload the provided openai-lambda-package.zip file to your Lambda function as a new layer.
 
 Step 2: Add the Layer to Your Lambda Function
 
@@ -27,7 +27,7 @@ You can add the OpenAI Lambda Layer to your AWS Lambda function using either the
 
 Step 3: Update Your Lambda Function Code
 
-Replace your existing Lambda function code with the code provided in this repository (lambda_function.py). This script is designed to interact with OpenAI's API using the credentials and setup defined in the layer.
+Replace your existing Lambda function code with the code provided in this repository (lambda.py). This script is designed to interact with OpenAI's API using the credentials and setup defined in the layer.
 Ensure you replace 'your-openai-api-key' with your actual OpenAI API key.
 Usage
 
